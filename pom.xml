@@ -6,11 +6,13 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>demo-project-springcloud-gateway</module>
+        <module>demo-project-eureka-server</module>
+        <module>demo-project-user</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.2</version>
+        <version>3.2.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     
@@ -31,12 +33,12 @@
     </properties>
 
     <dependencies>
-
+<!--
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-
+-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
