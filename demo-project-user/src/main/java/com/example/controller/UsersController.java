@@ -25,5 +25,10 @@ public class UsersController {
 	{
 		return "Working on port " + env.getProperty("local.server.port");
 	}
+	@GetMapping("/status/demo")
+	public String statusDemo()
+	{
+		return "Working on port  and demo controller" + env.getProperty("local.server.port");
+	}
 
 }
