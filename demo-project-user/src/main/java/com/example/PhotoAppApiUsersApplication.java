@@ -12,6 +12,8 @@ public class PhotoAppApiUsersApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PhotoAppApiUsersApplication.class, args);
+
+        System.out.println("hello   i am in ");
     }
 
 
